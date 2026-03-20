@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container bg-secondary text-white p-5 mt-5 border border-5 border-dark rounded">
+
+        <h1>Bootstrap Page</h1>
+        <p>This is a simple Bootstrap page.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo.</p>
+        <p>Hirosema is the best!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur commodo.</p>
+        <img src="https://cdn.pixabay.com/photo/2024/02/22/02/05/anime-8588928_1280.png"
+            class="img-fluid rounded mx-auto d-block mt-3 border-5 border-dark rounded-circle" alt="Bootstrap Image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc effic
+
+
+            <button class="btn btn-success">Click Me</button>
+            <button class="btn btn-primary">Click Me</button>
+            <button class="btn btn-danger">Click Me</button>
+            <button class="btn btn-light">Click Me</button>
+            <button class="btn btn-dark">Click Me</button>
+            <button class="btn btn-warning">Click Me</button>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/22/02/05/anime-8588928_1280.png"
+                        class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">This is a card with an image and some text.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/22/02/05/anime-8588928_1280.png"
+                        class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 2</h5>
+                        <p class="card-text">This is another card with an image and some text.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/22/02/05/anime-8588928_1280.png"
+                        class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 3</h5>
+                        <p class="card-text">This is a third card with an image and some text.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-info mt-5">Click Me</button>
+
+
+</body>
+
+</html>
